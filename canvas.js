@@ -433,7 +433,7 @@ function showGameOverScreen(message) {
             clickY <= menuButtonY + buttonHeight
         ) {
             canvas.removeEventListener("click", handleRestartClick);
-            window.location.href = "start.html";
+            window.location.href = "index.html";
         }
     });
 }
